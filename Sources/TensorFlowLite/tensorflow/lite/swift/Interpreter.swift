@@ -42,23 +42,7 @@ public final class Interpreter {
   }
 
   /// An ordered list of SignatureDef exported method names available in the model.
-  public var signatureKeys: [String] {
-    guard let signatureKeys = _signatureKeys else {
-      let signatureCount = Int(TfLiteInterpreterGetSignatureCount(self.cInterpreter))
-      let keys: [String] = (0..<signatureCount).map {
-        guard
-          let signatureNameCString = TfLiteInterpreterGetSignatureKey(
-            self.cInterpreter, Int32($0))
-        else {
-          return ""
-        }
-        return String(cString: signatureNameCString)
-      }
-      _signatureKeys = keys
-      return keys
-    }
-    return signatureKeys
-  }
+  
 
   /// The `TfLiteInterpreter` C pointer type represented as an `UnsafePointer<TfLiteInterpreter>`.
   internal typealias CInterpreter = OpaquePointer
@@ -306,12 +290,7 @@ public final class Interpreter {
   ///   - key: The signature key.
   /// - Throws: `SignatureRunnerError` if signature runner creation fails.
   /// - Returns: A new signature runner instance for the signature with the given key.
-  public func signatureRunner(with key: String) throws -> SignatureRunner {
-    guard signatureKeys.contains(key) else {
-      throw SignatureRunnerError.failedToCreateSignatureRunner(signatureKey: key)
-    }
-    return try SignatureRunner.init(interpreter: self, signatureKey: key)
-  }
+
 
   // MARK: - Private
 
