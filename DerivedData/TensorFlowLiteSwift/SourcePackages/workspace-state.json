@@ -1,0 +1,23 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "packageRef" : {
+          "identity" : "tensorflowliteswift",
+          "kind" : "root",
+          "location" : "/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift",
+          "name" : "TensorFlowLiteSwift"
+        },
+        "path" : "/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/Frameworks/TensorFlowLiteC.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "TensorFlowLiteC"
+      }
+    ],
+    "dependencies" : [
+
+    ]
+  },
+  "version" : 5
+}

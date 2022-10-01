@@ -1,0 +1,4 @@
+module TensorFlowLite {
+header "TensorFlowLite-Swift.h"
+export *
+}

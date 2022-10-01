@@ -1,0 +1,69 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "PACKAGE-TARGET:TensorFlowLite"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:TensorFlowLite"
+    }
+  ],
+  "containerPath" : "/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos16.0",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/DerivedData/TensorFlowLiteSwift/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/DerivedData/TensorFlowLiteSwift/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/DerivedData/TensorFlowLiteSwift/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/DerivedData/TensorFlowLiteSwift/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/DerivedData/TensorFlowLiteSwift/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/DerivedData/TensorFlowLiteSwift/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
