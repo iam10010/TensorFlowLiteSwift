@@ -1,9 +1,0 @@
-/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/Sources/TensorFlowLite/tensorflow/lite/swift/Delegate.swift
-/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/Sources/TensorFlowLite/tensorflow/lite/swift/Interpreter.swift
-/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/Sources/TensorFlowLite/tensorflow/lite/swift/InterpreterError.swift
-/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/Sources/TensorFlowLite/tensorflow/lite/swift/Model.swift
-/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/Sources/TensorFlowLite/tensorflow/lite/swift/QuantizationParameters.swift
-/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/Sources/TensorFlowLite/tensorflow/lite/swift/SignatureRunner.swift
-/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/Sources/TensorFlowLite/tensorflow/lite/swift/SignatureRunnerError.swift
-/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/Sources/TensorFlowLite/tensorflow/lite/swift/Tensor.swift
-/Users/ymbaek/workspace/apollo_bestshot/src/adot_sdk/tf_framework/TensorFlowLiteSwift/Sources/TensorFlowLite/tensorflow/lite/swift/TensorFlowLite.swift

@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-TensorFlowLite in TensorFlowLiteSwift, no dependencies
-TensorFlowLite in TensorFlowLiteSwift, depends on:
-TensorFlowLite in TensorFlowLiteSwift (explicit)
